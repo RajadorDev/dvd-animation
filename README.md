@@ -1,2 +1,14 @@
-# dvd-animation
-Simple dvd animation
+# DVD RGB
+
+## Author
+### Rajador 
+- 💬 **Instagram & Discord:** `rajadortv`
+- 📽 **YouTube:** [**Rajador**](https://www.youtube.com/channel/UC1UJFxth-YRkNuLBqBYyqbA)
+
+<br> <br>
+
+## About 
+
+A simple animation of old DVDs in HTML, CSS and JavaScript
+
+[**My Discord group**](https://discord.gg/AJYPZw5AGN)
