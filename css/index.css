@@ -1,1 +1,55 @@
 
+/*
+  
+  Rajador Developer
+
+  ▒█▀▀█ ░█▀▀█ ░░░▒█ ░█▀▀█ ▒█▀▀▄ ▒█▀▀▀█ ▒█▀▀█ 
+  ▒█▄▄▀ ▒█▄▄█ ░▄░▒█ ▒█▄▄█ ▒█░▒█ ▒█░░▒█ ▒█▄▄▀ 
+  ▒█░▒█ ▒█░▒█ ▒█▄▄█ ▒█░▒█ ▒█▄▄▀ ▒█▄▄▄█ ▒█░▒█
+
+  GitHub: https://github.com/RajadorDev
+
+  Discord: rajadortv
+
+
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+}
+
+.rgb {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	background-color: transparent;
+}
+
+.text {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.dvd {
+	background-color: white;
+	width: 150px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.color-transition {
+	transition: background-color 0.3s linear, color 0.3s linear;
+}
