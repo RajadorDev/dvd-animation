@@ -57,16 +57,6 @@ const PALLET =
 
 function onLoad() 
 {
-	
-	maxX = document.body.offsetWidth
-	
-	maxY = document.body.offsetHeight
-	
-	max_dimensions_data = {
-		[DIMENSION_X]: maxX,
-		[DIMENSION_Y]: maxY
-	}
-	
 	block = document.querySelector('.rgb')
 	animate()
 }
@@ -117,6 +107,7 @@ function generateRGB()
 
 function animate() 
 {
+	updateDimensions()
 	if (block)
 	{
 		for (let dimension of [DIMENSION_X, DIMENSION_Y])
@@ -185,4 +176,16 @@ function getWidthOf(dimension)
 {
 	dimension = dimension === DIMENSION_X ? 'width' : 'height'
 	return window.getComputedStyle(block)[dimension]
+}
+
+function updateDimensions() 
+{
+	maxX = document.body.offsetWidth
+	
+	maxY = document.body.offsetHeight
+	
+	max_dimensions_data = {
+		[DIMENSION_X]: maxX,
+		[DIMENSION_Y]: maxY
+	}
 }
