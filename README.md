@@ -1,6 +1,8 @@
 # DVD RGB
 
-See web demo [**Here**](https://rajadordev.github.io/dvd-animation/)
+<img src="./demo/demo.gif">
+
+**See web demo** [**Here**](https://rajadordev.github.io/dvd-animation/)
 
 ## Author
 ### Rajador 
